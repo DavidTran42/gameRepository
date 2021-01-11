@@ -1,5 +1,6 @@
 package Team29.BubbleShooters;
 
+import org.jspace.*;
 /*
  * Server checks that the name is valid (not empty, unique and not too long) 
  * and creates a new room, if the roomID doesn't exist already (Lobby/butler method)
@@ -13,7 +14,7 @@ package Team29.BubbleShooters;
  *  User gets position and collision info.
  *   
  */ 
-public class App 
+public class Server
 {
     public static void main( String[] args )
     {
