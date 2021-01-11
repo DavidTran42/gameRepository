@@ -21,5 +21,10 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>io.github.pspaces.jspace</groupId>
+    	<artifactId>common</artifactId>
+    	<version>[0.0,)</version>
+    </dependency>
   </dependencies>
 </project>
